@@ -1,0 +1,1 @@
+SELECT (pfirstname || ' ' || plastname || ' ' || CAST(ppoints AS TEXT)) AS "Customer Ponts" FROM  people ORDER BY ppoints DESC;
